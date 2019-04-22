@@ -1,0 +1,78 @@
+﻿SPACE JUNK
+
+improve css
+controls
+instance
+better load sequence
+
+
+
+
+Behaviour in objects
+game pad controller (blue tooth)
+
+
+Use a fixed aspect ratio/min screen size
+Inertia
+
+Tractor beam
+Repulsor
+Portal/warp/teleport
+Indestructible missiles
+
+
+Shader material
+
+Reuse bullets
+Improve collision detection
+
+Add normal map to asteroids
+Radar view
+
+Explosion effect
+Exploding mesh
+
+
+
+
+Improve target sight
+Score/countdown
+Power level
+Ammo level
+Force field
+Other ships
+
+Firing patterns
+Refuel station
+
+
+
+Multi-player - collab head-to-head
+Power ups
+Different arenae - e.g. blood vessels, outer space, abstract/ tron, geometric
+
+
+
+"Mobile first!"
+
+Game ideas
+Collect junk
+Destroy junk
+Invaders
+Push/drag
+Use as fuel
+Chain reaction
+Attract/repel
+Teleport
+
+
+
+
+√   Remove core, use outer mesh as parent
+√   "Swoop left/right"
+√   Merge meshes
+√   Bullet duration
+√   Mouse and key control use same code
+√   Add thrust
+√   Fill arena
+√   Sky box
