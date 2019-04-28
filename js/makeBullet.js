@@ -11,12 +11,12 @@
   var p1 = new BABYLON.Vector3(0, 0, 1);
   var p2 = BABYLON.Vector3.TransformCoordinates(p1, camera.getWorldMatrix());
   //camera.getFrontPosition(1)
-  var d = p2.subtract(camera.parent.position);
+  var d = p2.subtract(camera.position);
 
   var pos = d.multiplyByFloats(1,1,1);
-  bullet.position = camera.parent.position.clone().add(pos);
+  bullet.position = camera.position.clone().add(pos);
 
-  var velocity = pos.multiplyByFloats(1,1,1);
+  var velocity = pos.multiplyByFloats(5,5,5);
 
-  return { bullet: bullet, velocity: velocity, alive: 1000,  };
+  return { bullet: bullet, velocity: velocity, alive: 500000,  };
 }
