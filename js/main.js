@@ -1,5 +1,19 @@
 ﻿"use strict";
 window.addEventListener('DOMContentLoaded', function () {
+  // organise code
+  // globals???
+  // set stage - set up basic scene
+  // scene set up - populate game
+  // game set up
+  // start game
+  // level control
+
+  // what does game need?
+  // render
+  // input
+
+  // don't render asteroids until they're all ready
+
   var canvas = document.getElementById("renderCanvas");
   setupPointerLock(canvas);
 
@@ -73,7 +87,6 @@ window.addEventListener('DOMContentLoaded', function () {
           var g = y / 10 + 0.5;
           //for (var z = -5; z < 5; z++) {
           asteroid = makeAsteroid(scene, new BABYLON.Color3(r, g, b));
-          //asteroid.core.getChildren()[0].material.diffuseColor = new BABYLON.Color3(r,g,b);
 
           asteroid.bound.position.x = off + x * scl;
           asteroid.bound.position.y = off + y * scl;
@@ -86,7 +99,6 @@ window.addEventListener('DOMContentLoaded', function () {
     }
 
     scene.registerBeforeRender(settingUp);
-
 
     function game() {
       delta = Date.now() - lastTime;
@@ -135,7 +147,4 @@ window.addEventListener('DOMContentLoaded', function () {
 
     return scene;
   }
-
-
-
 });
